@@ -7,7 +7,7 @@
     <body>     
         <?php
             //load the source file
-            $sourceXML=simplexml_load_file("ITEC4020-A1-dataset.xml") or die("Error: Sorry, we cannot find the source file"); 
+            $sourceXML=simplexml_load_file("dataset.xml") or die("Error: Sorry, we cannot find the source file"); 
             
             //create the result xml file
             $resultXML = new DOMDocument("1.0", "UTF-8");
